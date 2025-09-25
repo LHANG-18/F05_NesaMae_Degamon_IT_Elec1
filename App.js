@@ -1,14 +1,14 @@
-import ChatScreen from './ChatScreen';
+import CounterApp from './CounterApp';
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import CommentSection from './CommentSection'
+import ColorChangerApp from './ColorChangerApp'
 
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       
-      <CommentSection />
-      <ChatScreen />
+      <CounterApp />
+      <ColorChangerApp />
  
     </SafeAreaView>
   );
